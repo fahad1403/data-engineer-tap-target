@@ -4,7 +4,7 @@
 
 **API Documentation**: https://sunrise-sunset.org/api
 
-### The tap performs the following function:
+The tap performs the following function:
 - Historical Load : loads historical data since 1 Jan 2020
 - Incremental Load : Append today’s data to existing target
 - Transform data : Transform the timestamp from UTC to IST 
@@ -12,6 +12,8 @@
 To load the data to destination I have used **Target**. This is a pre-built target to load data:
 
 meltano / target-sqlite · GitLab : https://gitlab.com/meltano/target-sqlite
+
+Please clone the above repo and follow the steps in Readme to load data into target
 
 
 ___
